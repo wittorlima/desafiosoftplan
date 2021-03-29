@@ -3,22 +3,17 @@ Projeto desenvolvido Asp.NET Core 3.1
 
 Architecture
 
-API
-Camada dos módulos REST.
+API - Camada dos módulos REST.
 
-Domain
-Camada de domínio e declaração dos contratos de repositório e serviços.
+Domain - Camada de domínio e declaração dos contratos de repositório e serviços.
 
-Infra
-Camada de acesso a dados.
+Infra - Camada de acesso a dados.
 
-Service
-Camada de regra de negócios.
+Service - Camada de regra de negócios.
 
-Test
-Projeto de teste
+Test - Projeto de teste
 
-APIs
+APIs:
 CalculatesInterest - API responsável por calcular os juros
 InterestRate - API responsável por listar a taxa de juros
 
