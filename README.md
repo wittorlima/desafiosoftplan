@@ -7,7 +7,7 @@ API - Camada dos módulos REST.
 
 Domain - Camada de domínio e declaração dos contratos de repositório e serviços.
 
-Infra - Camada de acesso a dados.
+Infra.Data - Camada de acesso a dados.
 
 Service - Camada de regra de negócios.
 
