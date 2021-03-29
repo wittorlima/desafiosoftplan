@@ -19,7 +19,8 @@ Navage até o diretório raiz e execute o comando no terminal "docker-compose up
  - InterestRate
 Navage até o diretório raiz e execute o comando  no terminal "docker-compose up". Navegue para http://localhost:5000/.
 
-Caso esteja utilizando docker for windows alterar o target nos arquivos .csproj dos projetos API  ex:  <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+Caso esteja utilizando docker for windows alterar o target nos arquivos .csproj dos projetos API 
+ex: definir DockerDefaultTargetOS para Windows
 
 
 Detalhamento dos endpoints das duas APIs podem ser acessado através do swageer exemplo: http://localhost:5000/swagger
