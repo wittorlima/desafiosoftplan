@@ -13,9 +13,9 @@ Service - Camada de regra de negócios.
 
 Test - Projeto de teste
 
-APIs:
-CalculatesInterest - API responsável por calcular os juros
-InterestRate - API responsável por listar a taxa de juros
+APIs
+- CalculatesInterest API responsável por calcular os juros
+- InterestRate API responsável por listar a taxa de juros
 
 Development server 
 - CalculatesInterest 
