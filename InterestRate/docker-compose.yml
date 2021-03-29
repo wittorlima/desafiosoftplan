@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  interestrate.api:
+    image: ${DOCKER_REGISTRY-}interestrateapi
+    build:
+      context: .
+      dockerfile: InterestRate.API/Dockerfile

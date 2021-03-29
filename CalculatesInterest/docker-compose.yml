@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  calculatesinterest.api:
+    image: ${DOCKER_REGISTRY-}calculatesinterestapi
+    build:
+      context: .
+      dockerfile: CalculatesInterest.API/Dockerfile

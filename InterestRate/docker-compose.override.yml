@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  interestrate.api:
+    container_name: interestrate
+    restart: always
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - API_URL=interestrate:5000
+    ports:
+      - "5000:80"
+    networks:
+      - my-network
+networks:
+  my-network:
+      external: true 

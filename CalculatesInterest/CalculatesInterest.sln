@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CalculatesInterest.API", "CalculatesInterest.API", "{BD43DCF4-9970-4A57-8BB0-C2DA5B1C559B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatesInterest.API", "CalculatesInterest.API\CalculatesInterest.API.csproj", "{8688D271-0CAF-4FCE-8CBE-351A97A18E0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CalculatesInterest.Domain", "CalculatesInterest.Domain", "{25CF2F7B-DA65-4CD0-8CF0-C5C91C585BE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatesInterest.Domain", "CalculatesInterest.Domain\CalculatesInterest.Domain.csproj", "{B00168DB-8F7C-4101-9ABF-25D1330EF9DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CalculatesInterest.Domain.Service", "CalculatesInterest.Domain.Service", "{80FDDF9B-17A4-4BBF-ABDF-30099A30D9B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatesInterest.Domain.Service", "CalculatesInterest.Service\CalculatesInterest.Domain.Service.csproj", "{880FFBD6-F182-4EB5-82F8-626765EACEF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CalculatesInterest.Infra", "CalculatesInterest.Infra", "{013F56F5-CFD7-4CB0-83B8-D02614D00910}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatesInterest.Infra.Data", "CalculatesInterest.Infra.Data\CalculatesInterest.Infra.Data.csproj", "{8F1C3886-5A42-4519-AE30-07DC87264F57}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{ECDCE00D-DD15-409B-8198-1928FF0B0365}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CalculatesInterest.Test", "CalculatesInterest.Test", "{CC8BEB00-FD18-41E0-B817-325E2CC587D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatesInterest.Test", "CalculatesInterest.Test\CalculatesInterest.Test.csproj", "{C12A8BEB-82B0-45EE-B8EF-B47097A57DB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8688D271-0CAF-4FCE-8CBE-351A97A18E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8688D271-0CAF-4FCE-8CBE-351A97A18E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8688D271-0CAF-4FCE-8CBE-351A97A18E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8688D271-0CAF-4FCE-8CBE-351A97A18E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B00168DB-8F7C-4101-9ABF-25D1330EF9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00168DB-8F7C-4101-9ABF-25D1330EF9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00168DB-8F7C-4101-9ABF-25D1330EF9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00168DB-8F7C-4101-9ABF-25D1330EF9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880FFBD6-F182-4EB5-82F8-626765EACEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880FFBD6-F182-4EB5-82F8-626765EACEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880FFBD6-F182-4EB5-82F8-626765EACEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880FFBD6-F182-4EB5-82F8-626765EACEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1C3886-5A42-4519-AE30-07DC87264F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1C3886-5A42-4519-AE30-07DC87264F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1C3886-5A42-4519-AE30-07DC87264F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1C3886-5A42-4519-AE30-07DC87264F57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECDCE00D-DD15-409B-8198-1928FF0B0365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECDCE00D-DD15-409B-8198-1928FF0B0365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECDCE00D-DD15-409B-8198-1928FF0B0365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECDCE00D-DD15-409B-8198-1928FF0B0365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12A8BEB-82B0-45EE-B8EF-B47097A57DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12A8BEB-82B0-45EE-B8EF-B47097A57DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12A8BEB-82B0-45EE-B8EF-B47097A57DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12A8BEB-82B0-45EE-B8EF-B47097A57DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8688D271-0CAF-4FCE-8CBE-351A97A18E0F} = {BD43DCF4-9970-4A57-8BB0-C2DA5B1C559B}
+		{B00168DB-8F7C-4101-9ABF-25D1330EF9DC} = {25CF2F7B-DA65-4CD0-8CF0-C5C91C585BE9}
+		{880FFBD6-F182-4EB5-82F8-626765EACEF5} = {80FDDF9B-17A4-4BBF-ABDF-30099A30D9B8}
+		{8F1C3886-5A42-4519-AE30-07DC87264F57} = {013F56F5-CFD7-4CB0-83B8-D02614D00910}
+		{C12A8BEB-82B0-45EE-B8EF-B47097A57DB4} = {CC8BEB00-FD18-41E0-B817-325E2CC587D1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8E9C89D-D73A-4AE6-BAF8-D6EDBB75059E}
+	EndGlobalSection
+EndGlobal
