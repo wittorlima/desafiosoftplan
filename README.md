@@ -12,6 +12,9 @@ APIs
 - CalculatesInterest API responsável por calcular os juros
 - InterestRate API responsável por listar a taxa de juros
 
+Docker network
+-Crie uma rede para que os containers possam se comunicar, com o seguinte comando "docker network create -d bridge my-network".
+
 Development server 
 - CalculatesInterest 
 Navage até o diretório raiz e execute o comando no terminal "docker-compose up". Navegue para http://localhost:5001/.
